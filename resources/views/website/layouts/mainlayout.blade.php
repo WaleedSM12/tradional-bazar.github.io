@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     @include('website.inc.head')
+    @yield('css')
 </head>
 <body>
     @yield('content')
